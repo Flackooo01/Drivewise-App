@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SCREEN"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        style="@style/SCREEN">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/SCREEN">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/feedholder">
+
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="ADVISORY"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/uploader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/desc"
+                    android:layout_marginEnd="10dp"
+                    android:text="From: LTO REGION 4A CALABARZON"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:id="@+id/photo"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:layout_below="@id/uploader"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="9dp"
+                    android:src="@drawable/feed2" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/feedholder">
+
+                <TextView
+                    android:id="@+id/desc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Why do traffic signs have different shapes?"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/uploader2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/desc2"
+                    android:layout_marginEnd="10dp"
+                    android:text="From: LTO REGION 4A CALABARZON"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:id="@+id/photo2"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:layout_below="@id/uploader2"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="9dp"
+                    android:src="@drawable/feed1" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/feedholder">
+
+                <TextView
+                    android:id="@+id/desc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="The renewal process is now faster and more efficient."
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/uploader3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/desc3"
+                    android:layout_marginEnd="10dp"
+                    android:text="From: LTO REGION 4A CALABARZON"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:id="@+id/photo3"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:layout_below="@id/uploader3"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="9dp"
+                    android:src="@drawable/feed3" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/feedholder">
+
+                <TextView
+                    android:id="@+id/desc4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Why are cars more fuel-efficient on highways?"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/uploader4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/desc4"
+                    android:layout_marginEnd="10dp"
+                    android:text="From: LTO REGION 4A CALABARZON"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:id="@+id/photo4"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:layout_below="@id/uploader4"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="9dp"
+                    android:src="@drawable/feed4" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/feedholder">
+
+                <TextView
+                    android:id="@+id/desc5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Gov't offers equity subsidy for PUJ operators."
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/uploader5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/desc5"
+                    android:layout_marginEnd="10dp"
+                    android:text="From: LTO REGION 4A CALABARZON"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:id="@+id/photo5"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:layout_below="@id/uploader5"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="9dp"
+                    android:src="@drawable/feed5" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/feedholder">
+
+                <TextView
+                    android:id="@+id/desc6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="PH transport groups propose rush hour surge pricing for jeepneys"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/uploader6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/desc6"
+                    android:layout_marginEnd="10dp"
+                    android:text="From: LTO REGION 4A CALABARZON"
+                    android:textColor="@color/white"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:id="@+id/photo6"
+                    android:layout_width="380dp"
+                    android:layout_height="300dp"
+                    android:layout_below="@id/uploader6"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="9dp"
+                    android:src="@drawable/feed6" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

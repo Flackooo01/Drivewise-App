@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".History">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_background"
+        style="@style/HEADER">
+
+        <ImageView
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="14dp"
+            android:text="Emergency Hotline"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/BGSETTING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_back_white"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <!-- Police Department -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/PoliceDep"
+                    android:layout_width="77dp"
+                    android:layout_height="72dp"
+                    android:padding="12dp"
+                    android:src="@drawable/pnp" />
+
+                <TextView
+                    android:id="@+id/DepName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/PoliceDep"
+                    android:text="@string/policedep"
+                    android:textColor="@color/Olive_text"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+            <LinearLayout
+                style="@style/BGSETTING"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/round_back_white"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <!-- Fire Department -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/FireDep"
+                        android:layout_width="77dp"
+                        android:layout_height="72dp"
+                        android:padding="12dp"
+                        android:src="@drawable/bfp" />
+
+                    <TextView
+                        android:id="@+id/DepName2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/FireDep"
+                        android:text="@string/firedep"
+                        android:textColor="@color/Olive_text"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                style="@style/BGSETTING"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/round_back_white"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <!-- Medical Department -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/MedDep"
+                        android:layout_width="77dp"
+                        android:layout_height="72dp"
+                        android:padding="12dp"
+                        android:src="@drawable/mlmc" />
+
+                    <TextView
+                        android:id="@+id/DepName3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/MedDep"
+                        android:text="@string/meddep"
+                        android:textColor="@color/Olive_text"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                style="@style/BGSETTING"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/round_back_white"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <!-- Medical Department -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/LtoDep"
+                        android:layout_width="77dp"
+                        android:layout_height="72dp"
+                        android:padding="12dp"
+                        android:src="@drawable/lto" />
+
+                    <TextView
+                        android:id="@+id/DepName4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/LtoDep"
+                        android:text="@string/ltodep"
+                        android:textColor="@color/Olive_text"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                style="@style/BGSETTING"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/round_back_white"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <!-- Medical Department -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/TmoDep"
+                        android:layout_width="77dp"
+                        android:layout_height="72dp"
+                        android:padding="12dp"
+                        android:src="@drawable/cpso" />
+
+                    <TextView
+                        android:id="@+id/DepName5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_toEndOf="@+id/TmoDep"
+                        android:text="@string/tmodep"
+                        android:textColor="@color/Olive_text"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

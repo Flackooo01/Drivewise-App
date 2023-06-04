@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#55000000"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/text_dialog"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Text"
+        android:textSize="20sp"
+        android:background="@drawable/edt_background"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image_view_dialog"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/text_dialog"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"
+        app:shapeAppearanceOverlay="@style/roundimageview"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_close_dialog"
+        style="@style/Button"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/image_view_dialog"
+        android:text="Close" />
+</RelativeLayout>
