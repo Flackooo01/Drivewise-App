@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LTO REPORTING APP</string>
+
+    <string name="lang">Piliin ang Wika</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_title">Mag-login sa app</string>
+    <string name="login_sub_title"><font color="#00C988"><b>Mag-login</b></font>kung may account ka na.</string>
+    <string name="login_email">Ang iyong email o username</string>
+    <string name="login_password">Ang iyong password</string>
+    <string name="login_forgot_pw">Nakalimutan ang password</string>
+    <string name="login_havent_account">Wala akong account <font color="#00C988"><b>Magrehistro</b></font></string>
+    <string name="btn_login">MAG LOG IN</string>
+    <string name="register_title">Gumawa ng account</string>
+    <string name="register_sub_title"><font color="#00C988"><b>Magrehistro</b></font> para makapagsimula sa app.</string>
+    <string name="register_fullname">Buong Pangalan mo</string>
+    <string name="register_email">Ang email mo</string>
+    <string name="register_username">Ang iyong username</string>
+    <string name="register_confirm_password">Kumpirmahin ang Password</string>
+    <string name="register_have_account">Mayroon na akong account <font color="#00C988"><b>Mag log in</b></font></string>
+    <string name="btn_register">MAGREGISTER</string>
+    <string name="error_while_loggin_in">error while loggin in</string>
+    <string name="logout">Logout</string>
+    <string name="fetch">fetch</string>
+    <string name="about">
+        Company Profile \n
+        Allows the business to track and analyses their performance and overall health while identifying opportunities for growth.
+        Despite improvements in reporting software over the past several decades, companies have routinely struggled to achieve success with business intelligence.
+        The need to prepare data and the challenge of accomplishing this goal within a reporting tool have necessitated alternative approaches. \n          \n         \n
+
+        Vision \n
+        A frontline government agency showcasing fast and efficient public service for a progressive land transport sector. \n          \n         \n
+
+        Mission \n
+        Rationalize the land transportation services and facilities and to effectively implement the various transportation laws, rules and regulations.
+        It is the responsibility of those involved in the public service to be more vigilant in their part in the over-all development scheme of the national leadership.
+        Hence, promotion of safety and comfort in land travel is a continuing commitment of the LTO.\n
+
+    </string>
+
+    <string name="FAQs">
+        1. Is the app free to download and use? \n
+        Answer: The app may be free to download but it could have in-app purchases or subscription fees for certain features or content.
+        \n
+
+        \n
+
+        2. Are there any in-app purchases or subscription fees? \n
+        Answer: It depends on the app, some apps may offer in-app purchases or subscription fees for certain features or content, while others may not.
+        \n
+
+        \n
+
+        3. How do I reset my password? \n
+        Answer: You can reset your password by clicking on \"Forgot Password\" on the login page and providing your registered email address. A link to reset your password will be sent to your email.
+        \n
+
+        \n
+
+        4. How do I navigate through the app? \n
+        Answer: The navigation structure of the app may vary, but generally you can use the navigation bar or menu located at the bottom or top of the screen to access different sections of the app.
+        \n
+
+        \n
+
+        5. How do I report a bug or technical issue? \n
+        Answer: You can report a bug or technical issue by contacting the support team through the in-app support center or by email.
+        \n
+
+        \n
+
+    </string>
+</resources>

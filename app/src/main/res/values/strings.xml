@@ -1,0 +1,185 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">DRIVEWISE</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //Login Form
+    <string name="login_title">Login to app</string>
+    <string name="login_sub_title"><font color="#00C988"><b>Login</b></font> if you already have an account.</string>
+    <string name="login_email">Your email or username</string>
+    <string name="login_password">Your password</string>
+    <string name="login_forgot_pw">Forgot Password</string>
+    <string name="login_havent_account">I Dont have an account <font color="#00C988"><b>Register</b></font></string>
+    <string name="btn_login">LOGIN</string>
+    <string name="title_activity_login" translatable="false">LoginActivity</string>
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password" translatable="false">Password</string>
+    <string name="action_sign_in" translatable="false">Sign in or register</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="welcome" translatable="false">"Welcome !"</string>
+    <string name="invalid_username" translatable="false">Not a valid username</string>
+    <string name="invalid_password" translatable="false">Password must be >5 characters</string>
+    <string name="login_failed" translatable="false">"Login failed"</string>
+
+    //Registration Form
+    <string name="register_title">Create an account</string>
+    <string name="register_sub_title"><font color="#00C988"><b>Register</b></font> to get started with the app.</string>
+    <string name="register_fullname">Your Fullname</string>
+    <string name="register_email">Your Email</string>
+    <string name="register_username">Your Username</string>
+    <string name="register_confirm_password">Confirm Password</string>
+    <string name="register_have_account">I already have an account <font color="#00C988"><b>Login</b></font></string>
+    <string name="btn_register">REGISTER</string>
+    <string name="error_while_loggin_in">error while loggin in</string>
+    <string name="logout">Logout</string>
+    <string name="fetch">fetch</string>
+
+    //Language
+    <string name="lang">Select Language</string>
+
+    //Policy
+    <string name="howtoreport" translatable="false">
+        - A detailed description of the issue or concern. \n
+        - Screenshots or other relevant documentation. \n
+        - Your contact information.
+    </string>
+
+    <string name="typeofreport" translatable="false">
+        - Bugs or technical issues. \n
+        - Security vulnerabilities. \n
+        - Harassment or abuse. \n
+        - Violations of terms of service.
+    </string>
+
+    //about activity
+    // \n-New Line
+    <string name="about">
+        Company Profile \n
+        Allows the business to track and analyses their performance and overall health while identifying opportunities for growth.
+        Despite improvements in reporting software over the past several decades, companies have routinely struggled to achieve success with business intelligence.
+        The need to prepare data and the challenge of accomplishing this goal within a reporting tool have necessitated alternative approaches. \n
+
+        \n
+        \n
+
+        Vision \n
+        A frontline government agency showcasing fast and efficient public service for a progressive land transport sector. \n
+
+        \n
+        \n
+
+        Mission\n
+        Rationalize the land transportation services and facilities and to effectively implement the various transportation laws, rules and regulations.
+        It is the responsibility of those involved in the public service to be more vigilant in their part in the over-all development scheme of the national leadership.
+        Hence, promotion of safety and comfort in land travel is a continuing commitment of the LTO.\n
+
+    </string>
+
+    //FAQs
+    <string name="FAQs">
+        1. Is the app free to download and use? \n
+        Answer: The app may be free to download but it could have in-app purchases or subscription fees for certain features or content. \n
+        \n
+        2. Are there any in-app purchases or subscription fees? \n
+        Answer: It depends on the app, some apps may offer in-app purchases or subscription fees for certain features or content, while others may not. \n
+        \n
+        3. How do I reset my password? \n
+        Answer: You can reset your password by clicking on "Forgot Password" on the login page and providing your registered email address. A link to reset your password will be sent to your email. \n
+        \n
+        4. How do I navigate through the app? \n
+        Answer: The navigation structure of the app may vary, but generally you can use the navigation bar or menu located at the bottom or top of the screen to access different sections of the app. \n
+        \n
+        5. How do I report a bug or technical issue? \n
+        Answer: You can report a bug or technical issue by contacting the support team through the in-app support center or by email. \n
+        \n
+    </string>
+
+    //Violation List
+    <string name="Violation" translatable="false">Driving without a license – Fine: ₱ 3,000</string>
+    <string name="Description" translatable="false">A driver’s license is necessary to drive the motor vehicle indicated on your license. In addition, driving without a license includes having a delinquent, expired, suspended, fake, revoked, or improper license.</string>
+    <string name="Violation2" translatable="false">Not wearing a seatbelt – Fine: ₱ 1,000 to ₱ 5,000</string>
+    <string name="Description2" translatable="false">The same fine applies to allowing kids ages 6 years old and below to sit in the vehicle’s front seat.\n \n
+
+    1st offense – ₱1,000, \n
+    2nd offense – ₱2,000, \n
+    3rd offense and beyond – ₱5,000</string>
+    <string name="Violation3" translatable="false">Reckless Driving – Fines: ₱2,000 to ₱10,000; Penalties: a 6-month license suspension or revocation.</string>
+    <string name="Description3" translatable="false">Getting into an accident while driving is called Reckless Driving. This act of driving endangers nearby motorists and pedestrians. \n \n
+
+    1st offense – ₱2,000 \n
+    2nd offense – ₱3,000 and a 3-month license suspension, \n
+    3rd offense and beyond – ₱10,000 and a 6-month license suspension or revocation.</string>
+    <string name="Violation4" translatable="false">Driving Under the Influence of Drugs and Alcohol – Fines: ₱ 20,000 to ₱ 500,000; Penalties: Reclusion temporal.</string>
+    <string name="Description4" translatable="false">Driving Under the Influence of Drugs and Alcohol is a grave violation with severe consequences. If your only violation is the act of Driving Under the Influence, 3-month imprisonment and a fine of ₱ 20,000 to ₱ 80,000 shall be imposed.\n \n
+
+    However, if the violation results in physical injuries, the penalty should be referred to in the Revised Penal Code, article 263, and a fine of ₱ 100,000 to ₱ 200,000 shall be imposed. \n \n
+
+    If the violation results in Homicide, the penalty should be referred to the Revised Penal Code, article 249, with a fine of ₱ 300,000 to ₱ 500,000\n \n
+
+    Moreover, Non-professional driver’s license holders shall have their driver’s license confiscated and suspended for one year. Once convicted again, the driver’s license will be perpetually revoked.\n \n
+
+    For professional driver’s license holders, the LTO will immediately void their license, and they will also be disqualified from registering again.</string>
+    <string name="Violation5" translatable="false">Not Wearing Helmets for Motorcycle Riders – Fines: ₱ 1,500 to ₱ 10,000</string>
+    <string name="Description5" translatable="false">Motorcycle riders and their back riders must wear their helmets all the time while traveling. Failure to do so will result in fines. \n \n
+
+    1st offense – ₱ 1,500 \n
+    2nd offense – ₱ 3,000 \n
+    3rd offense – ₱ 5,000 \n
+    4th and consecutive offenses – ₱ 10,000 \n \n
+
+    Wearing substandard helmets or those without ICC stickers will immediately be given a second offense.</string>
+    <string name="Violation6" translatable="false">Vehicle Registration Violations – Fine: ₱ 5,000</string>
+    <string name="Description6" translatable="false">Having a dangling plate number is dangerous, risking damage to your vehicle and the surrounding motorists and pedestrians. In addition, tampering with your number plate and attaching illegal LTO stickers and decals will also incur similar fines.</string>
+    <string name="Violation7" translatable="false">Illegal transfer or Use of regularly issued Motor Vehicle plates, Tags, or Stickers – Fine: ₱ 10,000 to ₱ 12,000</string>
+    <string name="Description7" translatable="false">Transferring vehicle plates from one car to another is an illegal act that will get the vehicle’s registration a 3-months suspension. Furthermore, if the car gets involved in criminal activities, the owner will have to pay ₱ 12,000 and suspend the car’s registration for two years. \n \n
+
+Security Plates on authorized vehicles are exempted from the LTO fine.</string>
+    <string name="Violation8" translatable="false">Driving with illegal, damaged, or substandard parts and accessories – Fine: ₱ 5,000 and Impoundment.</string>
+    <string name="Description8" translatable="false">The following parts and accessories are subjected to a thorough inspection: \n \n
+
+    Horns \n
+    Mufflers \n
+    Blinkers, Signal Lights, Interior Lights \n
+    Foot and Hand Brakes \n
+    Wipers \n
+    Speedometers \n
+    Side Mirrors \n
+    Spare tires \n
+    Unauthorized Plates \n
+    Unnecessary Accessories that will impede orderly road experience. \n
+
+If these accessories are not up to standards, you will have to pay a fine, and your vehicle will also be impounded until you replace the violating part.</string>
+    <string name="Violation9" translatable="false">Smoke Belching – Fines: ₱ 2,000 to ₱ 6,000</string>
+    <string name="Description9" translatable="false">Smoke Belching is when a vehicle discharges black smoke full of toxic gasses. This occurs due to poor vehicle maintenance or outdated engines. \n \n
+
+    1st Offense – ₱ 2,000 \n
+    2nd Offense – ₱ 4,000 \n
+    3rd Offense – ₱ 6,000 and a 1-year suspension of the vehicle registration</string>
+    <string name="Violation10" translatable="false">Other LTO Violations – Fines: ₱ 1,000 to ₱ 2,000</string>
+    <string name="Description10" translatable="false">Some of these violations pertain to not observing proper road safety and regulations, such as: \n \n
+
+    Illegal Parking \n
+    Beating the Red Light \n
+    Overtaking \n
+    Illegal turns \n
+    Driving on Prohibited Roads</string>
+
+    //Headings
+    <string name="heading_one" translatable="false">User Friendly</string>
+    <string name="heading_two" translatable="false">Reporting Application</string>
+    <string name="heading_three" translatable="false">Real Time</string>
+    <string name="heading_fourth" translatable="false">Easy Access</string>
+
+    //Description
+    <string name="desc_one" translatable="false">A user-friendly product is designed with the needs and abilities of its users in mind, so that they can quickly and easily accomplish what they need to do.</string>
+    <string name="desc_two" translatable="false">A reporting application is a software program that allows users to collect, process, analyze, and present data in a meaningful and organized manner.</string>
+    <string name="desc_three" translatable="false">In real-time systems, the time interval between the occurrence of an event and its response is so short that it appears to happen instantly.</string>
+    <string name="desc_fourth" translatable="false"> It describes a system or process that is designed to be simple, straightforward, and efficient, so that users can quickly and easily access what they need.</string>
+
+    //Emergency Hotlines
+    <string name="policedep" translatable="false"> Philippine National Police (Lipa) \n <font color="#fff">(043) 757-4618 \n 0977-744-9692</font></string>
+    <string name="firedep" translatable="false"> Bureau of Fire Protection (Lipa) \n <font color="#fff">(043) 757-4618 \n 0927-575-8065</font></string>
+    <string name="meddep" translatable="false"> Metro Lipa Medical Center \n <font color="#fff">(043) 702-5443 \n (043) 702-5561 </font></string>
+    <string name="ltodep" translatable="false"> Land Transportation Office \n <font color="#fff">(043) 702-5443 \n (043) 702-5561 </font></string>
+    <string name="tmodep" translatable="false"> City Public Order and Safety Office \n <font color="#fff">(043) 702-5443 \n (043) 702-5561 </font></string>
+</resources>

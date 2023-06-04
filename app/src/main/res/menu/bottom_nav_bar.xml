@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btn_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home">
+    </item>
+    <item
+        android:id="@+id/btn_list"
+        android:icon="@drawable/list_svgrepo_com__1_"
+        android:title="Lists">
+    </item>
+    <item
+        android:id="@+id/btn_blank"
+        android:title="">
+    </item>
+    <item
+        android:id="@+id/btn_history"
+        android:icon="@drawable/map_emergency_phone_svgrepo_com"
+        android:title="History">
+    </item>
+    <item
+        android:id="@+id/btn_settings"
+        android:icon="@drawable/ic_baseline_table_rows_24"
+        android:title="Settings">
+    </item>
+</menu>
